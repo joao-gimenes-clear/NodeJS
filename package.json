@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/joao-gimenes-clear/NodeJS#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "consign": "^0.1.6",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0"
   }
 }
