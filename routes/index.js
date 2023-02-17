@@ -1,5 +1,5 @@
-module.exports = (app) => {
-
+module.exports = app => {
+ 
     app.get('/', (req, res) => {
 
         res.statusCode = 200;
@@ -7,5 +7,5 @@ module.exports = (app) => {
         res.end('<h1>Olá</h1>');
 
     });
-
+    
 };
